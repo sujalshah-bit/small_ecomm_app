@@ -6,7 +6,7 @@ import ProductsDisplay from "./components/ProductsDisplay";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ProductDetail from "./components/ProductDetail";
 import MyCart from "./components/MyCart";
-import Search from "./components/Search";
+
 
 function App() {
   // fetch('https://dummyjson.com/products')
