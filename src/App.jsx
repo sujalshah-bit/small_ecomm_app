@@ -21,7 +21,6 @@ function App() {
             <Route path="/" element={<ProductsDisplay />}/>
             <Route path="/products/:productId" element={<ProductDetail/>} />
             <Route path="/cart" element={<MyCart/>} />
-            <Route path='/search/:query' element={<Search/>}/>
             <Route> Opps, 404 Not Found!!</Route>
         </Routes>
         
